@@ -1,0 +1,23 @@
+.body-header{
+    background-image: url(../../img/bannerbackground.png);
+    min-height:70vh;
+
+}
+.body-header h1{
+    font-size:4rem;
+}
+.search-btn{
+    background-color: #F91944;
+    border: none;
+}
+.search-input{
+    border-radius: 50rem 0 0 50rem ;
+    outline:none;
+}
+.card-hover:hover{
+    box-shadow: 0px 7px 27px -6px rgba(0,0,0,0.75);
+
+}
+.footer{
+    background-color: #191919;
+}
