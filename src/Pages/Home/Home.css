@@ -21,3 +21,20 @@
 .footer{
     background-color: #191919;
 }
+.all-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 2rem;
+    grid-column-gap: 5rem;
+    margin: 2rem 0;
+}
+.cart{
+    top: 20%;
+    right: 0;
+    position:fixed;
+    background-color: rgba(95, 95, 95, 0.514);
+    width: 20rem;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}

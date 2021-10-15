@@ -50,7 +50,7 @@
     {
         "id": 107,
         "name": "Bagel and cream cheese",
-        "section": "Beakfast",
+        "section": "Breakfast",
         "price": 6.99,
         "img": "https://i.ibb.co/GdbBVTw/breakfast1.png",
         "detail": "How we dream about our future"
@@ -58,7 +58,7 @@
     {
         "id": 108,
         "name": "Eggs Benedict",
-        "section": "Beakfast",
+        "section": "Breakfast",
         "price": 8.99,
         "img": "https://i.ibb.co/mch2VZj/breakfast2.png",
         "detail": "How we dream about our future"
@@ -66,7 +66,7 @@
     {
         "id": 109,
         "name": "Breakfast Sandwich",
-        "section": "Beakfast",
+        "section": "Breakfast",
         "price": 9.99,
         "img": "https://i.ibb.co/hK2p6HC/breakfast3.png",
         "detail": "How we dream about our future"
@@ -74,7 +74,7 @@
     {
         "id": 110,
         "name": "Baked Chicken",
-        "section": "Beakfast",
+        "section": "Breakfast",
         "price": 10.99,
         "img": "https://i.ibb.co/bN5VMSs/breakfast6.png",
         "detail": "How we dream about our future"
@@ -82,7 +82,7 @@
     {
         "id": 111,
         "name": "Toast Croissaint Fried Egg",
-        "section": "Beakfast",
+        "section": "Breakfast",
         "price": 19.99,
         "img": "https://i.ibb.co/GdYxcZ7/breakfast5.png",
         "detail": "How we dream about our future"
@@ -90,7 +90,7 @@
     {
         "id": 112,
         "name": "Full Brakfast Fried Egg Toast Brunch",
-        "section": "Beakfast",
+        "section": "Breakfast",
         "price": 3.99,
         "img": "https://i.ibb.co/LkQP9kF/breakfast4.png",
         "detail": "How we dream about our future"
