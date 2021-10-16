@@ -2,25 +2,18 @@ import React, { useEffect, useState } from 'react';
 import { Nav } from 'react-bootstrap';
 import Cart from '../../Cart/Cart';
 import ItemSection from './ItemSection/ItemSection';
+import useAuth from '../../../Hooks/useAuth/useAuth';
 
 const FoodItem = () => {
-    const [data, setData] = useState([]);
+    const data = useAuth();
     const [currentItems, setCurrentItems] = useState([]);
     const [addedItems, setAddedItems] = useState([])
-
 
     const handleCart = (props) => {
         const addedItem = data.find(item => item.id === props);
         const newItems = [addedItem, ...addedItems];
         setAddedItems(newItems)
     }
-    console.log(addedItems)
-
-    useEffect(() => {
-        fetch('./data.json')
-            .then(res => res.json())
-            .then(data => setData(data))
-    }, [])
 
     const breakFast = () => {
         const breakfast = data.filter(item => item.section === "Breakfast");
@@ -34,6 +27,10 @@ const FoodItem = () => {
         const dinner = data.filter(item => item.section === "Dinner");
         setCurrentItems(dinner);
     }
+
+    useEffect(() => {
+        breakFast();
+    }, [data])
 
     return (
         <div className='container'>
@@ -54,7 +51,9 @@ const FoodItem = () => {
                 {currentItems.map(items => <ItemSection handleCart={handleCart} key={items.id} items={items} ></ItemSection>)}
             </div>
 
-            {addedItems.length ? <div className="cart"> <Cart data={addedItems}></Cart></div> : <div></div>}
+            {addedItems.length ? <div className="cart"> <Cart data={addedItems}>
+
+            </Cart></div> : <div></div>}
 
         </div >
     );

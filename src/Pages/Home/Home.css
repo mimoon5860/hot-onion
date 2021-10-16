@@ -32,9 +32,22 @@
     top: 20%;
     right: 0;
     position:fixed;
-    background-color: rgba(95, 95, 95, 0.514);
+    background-color: rgba(253, 241, 135, 0.514);
     width: 20rem;
     padding: 10px;
     border-radius: 10px;
     font-weight: bold;
+}
+.quantity-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quantity-field button{
+    border:none;
+    background-color: white;
+    font-size: 30px;
+}
+.quantity-field button:focus{
+    color: hotpink;
 }

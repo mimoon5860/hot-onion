@@ -7,9 +7,11 @@ import Footer from './Pages/Footer/Footer';
 import Login from './Pages/Login/Login';
 import Registation from './Pages/Registation/Registation';
 import Cart from './Pages/Cart/Cart';
+import Details from './Pages/Details/Details';
+import AuthProvidor from './Pages/AuthProvidor/AuthProvidor.js';
 function App() {
   return (
-    <div>
+    <AuthProvidor>
       <Router>
         <Header></Header>
         <Switch>
@@ -28,10 +30,13 @@ function App() {
           <Route path='/cart'>
             <Cart></Cart>
           </Route>
+          <Route path="/item/:itemId">
+            <Details></Details>
+          </Route>
         </Switch>
         <Footer></Footer>
       </Router>
-    </div>
+    </AuthProvidor>
   );
 }
 

@@ -22,7 +22,7 @@ const Home = () => {
             <div className='container'>
                 <div className='w-50'>
                     <h2>Why You choose us?</h2>
-                    <p className='fw-bold'>Dhon deikha amader choose kora lagbo. goamara dew. shaua chudi. amr cheter bal , hur halar put jah. bal khaba aho bal dia shemai banaia dei.</p>
+                    <p className='fw-bold'>All purchase of Products and all Orders from HungryNaki Store and Medicine shall also be subject to this User Agreement. By accepting this Agreement, you also accept all additional policy.</p>
                 </div>
                 <div className='row mb-4'>
                     <div className='col-4 py-3 d-flex rounded-3 card-hover flex-column align-items-center'>
